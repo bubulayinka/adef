@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Generics | store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Karma:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        
+        <h1 class="band-name band-name-large">The Generics</h1>
+    </header>
+    <section class="content-section container">
+        <h2 class="section-header">MUSIC</h2>
+       <div class="shop-items two">
+        <div class="shop-item">
+            <span class="shop-item-title">Album 1</span>
+            <img src="images/spoons.jpg" alt="" width="200px" height="200px" class="shop-item-img">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Album 2</span>
+            <img src="images/kitchen anger.jpg" alt="" width="200px" height="200px" class="shop-item-img">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Album 3</span>
+            <img src="images/knife.jpg" alt="" width="200px" height="200px" class="shop-item-img">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Album 4</span>
+            <img src="images/broom.jpg" alt="" width="200px" height="200px" class="shop-item-img">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+            </div>
+        </div>
+       </div>
+    </section>
+    <section class="content-section container">
+        <h2 class="section-header">MERCH</h2>
+        <div class="shop-items one">
+            <div>
+                
+                <img src="images/cup of cofee.jpg" alt="" width="200px" height="100px" class="shop-item-img">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                </div>
+            </div>
+            <div>
+               
+                <img src="images/dinning table.jpg" alt="" width="200px" height="100px" class="shop-item-img">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button type="button" class="btn btn-primary shop-item-btn">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-section container">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-col">ITEMS</span>
+            <span class="cart-price cart-header cart-col">PRICE</span>
+            <span class="cart-quantity cart-header cart-col">QUANTITY</span>
+        </div>
+        <div class="cart-row">
+            <div class="cart-item cart-col">
+                <img src="images/spoons.jpg" alt="" width="50px" height="50px" class="cart-img">
+                <span class="cart-item-title ">Spoons</span>
+            </div>
+           
+            <span class="cart-price  cart-col">$19.99</span>
+            <div class="cart-quantity cart-col">
+                <input type="number" value="1" class="cart-quantity-input">
+                <button class="btn cart-danger cart-btn">REMOVE</button>
+            </div>
+        </div>
+        <div class="cart-row me">
+           <div class="cart-item cart-col">
+            <img src="images/knife.jpg" alt="" width="50px" height="50px">
+            <span class="cart-item-title ">Knife</span>
+           </div>
+            <span class="cart-price  cart-col">$9.99</span>
+           <div class="cart-quantity cart-col">
+            <input type="number" value="2" class="cart-quantity-input">
+            <button class="btn cart-danger cart-btn">REMOVE</button>
+           </div>
+        </div>
+        
+        <div class="cart-total">
+            <span class="total">Total</span>
+            <span class="pric">$29.98</span>
+        </div>
+        <button type="button " class="btn btn-primary btn-purcha">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+         <h1 class="band-name">The Generics</h1>
+         <ul class="nav footer-nav">
+             <li><a href=""><img src="images/realytb.png" alt="" width="30px" style="color: white;"></a></li>
+             <li><a href=""><img src="images/realspt.png" alt="" width="50px" style="color: white;"></a></li>
+             <li><a href=""><img src="images/realfb.png" alt="" width="40px" style="color: white;"></a></li>
+         </ul>
+        </div>
+     </footer>
+</body>
+</html>

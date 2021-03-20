@@ -1,0 +1,390 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    
+}
+.prac{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 20%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.second-part{
+    background-color: rgb(230,238,238);
+    margin-left: 20%;
+}
+
+.first-part-icons{
+    margin: 0;
+    padding: 0;
+}
+.home-box{
+    border-bottom: 1px solid rgb(230,230,230);
+    padding: 10px;
+}
+.home{
+    display: block;
+    text-align: center;
+    
+}
+.home img{
+    margin-bottom: 0;
+    
+}
+.home-box p{
+    font-size: 18px;
+    color: rgb(66,69,66);
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 300;
+}
+.first-part-sub span{
+    margin-left: 15px;
+    font-size: 16px;
+    color: rgb(165,166,165)
+    ;
+}
+.first-part-sub a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.first-part-icons i{
+    font-size: 20px;
+}
+.first-part-icons li{
+    list-style-type: none;
+}
+.first-part-icons{
+    
+}
+.first-part-sub :hover{
+    background: rgb(243, 243, 243);
+}
+.fa-user{
+    color: rgb(70,134,247);
+}
+.fa-google-wallet{
+    color: rgb(111,229,6);
+}
+.fa-stack-overflow{
+    color: rgb(81,171,90);
+}
+.fa-long-arrow-right{
+    color: rgb(51,102,192);
+}
+.fa-graduation-cap{
+    color: rgb(237,151,32);
+}
+.fa-youtube-play{
+    color: rgb(230,46,45);
+}
+.fa-file{
+    color: rgb(106,210,254);
+}
+.one{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+.one ul{
+    margin: 0;
+    padding: 0;
+}
+.one ul li{
+    list-style-type: none;
+}
+.one-img{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    
+    align-items: center;
+}
+    .passport{
+        position: absolute;
+        top: 90px;
+        margin-left: -90px;
+    }
+.second-part{
+    position: relative;
+}
+.two-img{
+    background: url(img/ade-ig-removebg-preview.png);
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 0 auto;
+    top: 75px;
+    left: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.headings{
+    background-color: rgb(70,134,247);
+    padding: 10px;
+    color: white;
+}
+.headings h2{
+    font-size: 24px;
+    font-weight: lighter;
+    
+}
+.name-title h1{
+    font-size: 42px;
+    font-weight: 400;
+    color: rgb(10,0,128);
+    margin-bottom: 0px;
+}
+.name-title h2{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.fa-phone{
+    font-size: 30px;
+    color: rgb(243,193,23);
+    
+}
+.fa-envelope{
+    font-size: 24px;
+    color: rgb(231,79,67);
+    
+}
+.fa-linkedin-square{
+    font-size: 32px;
+    color: rgb(52,103,194);
+    
+}
+.fa-twitter{
+    font-size: 32px;
+    color: rgb(87,172,238);
+    
+}
+.fa-github{
+    font-size: 24px;
+    color: rgb(0,0,0);
+    
+}
+.medias{
+    margin: 0 auto;
+    width: 300px;
+    
+}
+.medias li{
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+    
+}
+.medias li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(94,144,252);
+}
+.about-para{
+    padding: 20px 50px;
+    line-height: 1.5em;
+    font-size: 22px;
+    color: rgb(57,51,51);
+}
+.experience-par{
+    padding: 40px 50px;
+}
+.exp-head{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(230,230,230);
+    
+}
+.exp-head img{
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.exp-box{
+    background-color: white;
+    padding: 20px 0px;
+    margin-bottom: 40px;
+    
+}
+.exp-list{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.exp-list ul li{
+    margin: 20px 0px;
+}
+.exp-p{
+    padding-left: 28px;
+    margin-bottom: 0;
+    color: rgb(165,162,144);
+    font-size: 14px;
+}
+.prjt{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.skills-box{
+   margin: 50px;
+    background: white;
+}
+.skill-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.front-en{
+    padding: 30px;
+}
+.skill-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.edu-box{
+    margin: 50px;
+}
+.edu-cont{
+    background-color: white;
+    padding: 20px;
+}
+.edu-cont h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+.edu-cont p{
+    color: rgb(102,104,107);
+    margin: 0;
+}
+.edu-cont ul{
+    padding: 20px;
+}
+input{
+    display: none;
+}
+
+label{
+    display: none;
+}
+.edu-cont ul li{
+    padding: 5px 0px;
+}
+.blog-box{
+    padding: 50px;
+}
+.blog-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+
+}
+.pho{
+    background-color: white;
+    display: none;
+}
+@media screen and (max-width:500px){
+    .second-part{
+        margin-left: 0;
+    }
+    .pho{
+        display: block;
+        padding: 10px;
+        text-align: justify;
+    }
+    .pho h1{
+        font-size: 18px;
+    }
+    .pho p{
+        font-size: 12px;
+    }
+    .prac{
+        left: 100%;
+        top: 70px;
+       
+    }
+    .pho-head{
+        margin-left: 140px;
+    }
+    .pho-head h1{
+        padding: 0;
+        margin: 0;
+    }
+    .pho-head p{
+        margin: 0;
+    }
+    #chk:checked ~ .prac{
+        left: 0;
+    }
+    .show-btn, .hide-btn{
+        font-size: 30px;
+        color:rgb(44, 87, 230);
+        position: fixed;
+        top: 10px;
+        left: 20px;
+    }
+    .hide-btn{
+        opacity: 0;
+    }
+    .container{
+        margin-top: 0;
+    }
+    input{
+        display: none;
+    }
+    .experience-par{
+        padding:0px 20px;
+    }
+    .exp-box{
+        width: 350px;
+        padding: ;
+        margin: 20px auto;
+    }
+    .prjt{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 35px;
+        
+    }
+    .prjt img{
+        width: 350px;
+        padding: ;
+        
+    }
+    .skill-img{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .blog-cont img{
+        width: 350px;
+        margin-left: -15px;
+    }
+    .blog-cont{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
